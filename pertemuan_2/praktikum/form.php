@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form | Doni Setiawan </title>
 </head>
 <body>
     <!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
