@@ -9,8 +9,8 @@ include_once 'top.php';
     ?>
     <!-- Page content-->
     <div class="container-fluid">
-                <form method="post" action="nilai_siswa.php" class="form-horizontal">
-<fieldset>
+    <form method="post" action="nilai_siswa.php" class="form-horizontal">
+    <fieldset>
 
 <!-- Form Name -->
 <legend>Form Nilai Mahasiswa</legend>
