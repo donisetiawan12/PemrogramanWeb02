@@ -48,7 +48,7 @@ $rows = $dbh->query("SELECT * FROM pasien")->fetchAll(PDO::FETCH_ASSOC);
                             <td><?= $row['email']; ?></td>
                             <td>
                             <a href="form_pasien.php?id=<?= $row['id'] ?>" class="btn btn-warning btn-sm">Edit</a>
-<a href="proses_pasien.php?proses=Hapus&idx=<?= $row['id'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus?')">Hapus</a>
+                            <a href="proses_pasien.php?proses=Hapus&idx=<?= $row['id'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus?')">Hapus</a>
 
                             </td>
                         </tr>
